@@ -1,5 +1,5 @@
 "use client";
-
+import { Metadata } from "next";
 import { useState } from "react";
 import "./globals.css";
 import { Toaster } from "sonner";
@@ -7,6 +7,11 @@ import { AppProvider } from "./context/AppContext";
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 
+
+export const metadata: Metadata = {
+  title: "Simbrella Retail Solution",
+  description: "Simbrella FE Assignment",
+};
 export default function RootLayout({
   children,
 }: {
