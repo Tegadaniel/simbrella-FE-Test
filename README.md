@@ -37,7 +37,8 @@ User Management: Displays user information including name, email, and account ba
 Loan Management: Allows users to view active loans, loan history, and request new loans.
 Transaction History: Displays a list of transactions with sorting and filtering options.
 
-Key Components
+## Key Components
+
 Context API: Used for state management across the application. The AppProvider component in AppContext.tsx provides the application state to all components.
 
 API Routes: Mock API routes are defined in the api directory to simulate fetching data from a server.
@@ -46,7 +47,8 @@ Styling: Tailwind CSS is used for styling the application. The configuration is 
 
 Testing: Jest and React Testing Library are used for unit testing components. Test files are located alongside their respective components.
 
-Directory Structure
+## Directory Structure
+
 app: Contains the main application components and pages.
 
 components: Contains reusable components such as Header, Sidebar, and BreadCrumbs.
