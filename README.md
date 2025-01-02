@@ -34,7 +34,9 @@ To access the hosted version of the application, visit: https://simbrealla-fe-te
 This project is a simple financial management application built using Next.js. The application includes the following features:
 
 User Management: Displays user information including name, email, and account balance.
+
 Loan Management: Allows users to view active loans, loan history, and request new loans.
+
 Transaction History: Displays a list of transactions with sorting and filtering options.
 
 ## Key Components
