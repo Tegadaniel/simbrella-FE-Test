@@ -26,7 +26,8 @@
    npm test
    ```
 
-Accessing the Hosted Version
+## Accessing the Hosted Version
+
 To access the hosted version of the application, visit: https://simbrealla-fe-test.netlify.app/
 
 ## Approach
